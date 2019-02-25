@@ -1,0 +1,55 @@
+form {
+    border: 1px solid #eee;
+    padding: 2%;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    background: #f1f1f1;
+}
+
+
+
+input {
+    display: block;
+    background: #fff;
+    padding: 1%;
+    margin: 2% 0;
+    width: 100%;
+    font-size: 20px;
+}
+
+button {
+    background: #10487b;
+    border: none;
+    padding: 10px 18px;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0 6px;
+    cursor: pointer;
+}
+li{
+    color: burlywood;
+    font-family: "Monotype Corsiva";
+    font-style: italic;
+    
+}
+ul.cardBox {
+    width: 42%;
+    margin: 0 auto;
+    background: #f1f1f1;
+    padding: 1% 1.1%;
+    margin-top: 1%;
+}
+
+ul.cardBox li {
+    color: #000;
+    list-style: none;
+    font-size: 27px;
+}
+ul.cardBox li span{display: inline-flex; width: 80%;} 
+ul.cardBox li button {
+    display: inline-flex;
+    background: no-repeat;
+    color: #0f487b;
+    text-decoration: underline;
+}

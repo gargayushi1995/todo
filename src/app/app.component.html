@@ -1,0 +1,12 @@
+<div class="col-sm-10">
+  <form #addressForm="ngForm">
+    <input  placeholder="title" ngModel name="title">
+    <button  type="button" (click)="submit(addressForm)" >Submit</button>
+    <button  type="button" (click)="empty(addressForm)">Reset</button>
+  </form>
+</div>
+<div>
+<ul class="cardBox">
+  <li *ngFor="let i of todos" (click)="showData(i.title)"><span>{{i.title}}</span> <button (click)="delete(i.title)" >delete</button></li>
+</ul>
+<router-outlet></router-outlet>
